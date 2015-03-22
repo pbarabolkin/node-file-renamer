@@ -1,0 +1,33 @@
+{
+  "name": "file-renamer",
+  "version": "0.1.0",
+  "description": "file renamer",
+  "main": "app.js",
+  "bin": {
+    "file-renamer": "./app.js"
+  },
+  "dependencies": {
+    "glob": "latest",
+    "optimist": "latest",
+    "fs": "latest",
+    "path": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pbarabolkin/node-file-renamer.git"
+  },
+  "keywords": [
+    "file",
+    "renamer"
+  ],
+  "author": "Pavel Barabolkin <p.barabolkin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pbarabolkin/node-file-renamer/issues"
+  },
+  "homepage": "https://github.com/pbarabolkin/node-file-renamer"
+}
